@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            background-image: url(background_img.webp);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        #student_details {
+            margin-bottom: 20px;
+        }
+
+        #table_data {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>STUDENT FORM</h1>
+            <table id="student_details" border="1">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" id="age"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male"> Male
+                        <input type="radio" id="female" name="gender" value="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td>
+                        <select name="course" id="course_list">
+                            <option>Select Course</option>
+                            <option value="Javascript">Javascript</option>
+                            <option value="Python Programming">Python Programming</option>
+                            <option value="Fullstack web development">Fullstack web development</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td><input type="text" id="email"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="button" id="save_btn" style="width: 100%; background-color: rgb(55, 8, 150); color: aliceblue;">Save</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <table id="table_data" border="1">
+            <thead>
+                <tr>
+                    <td>NAME</td>
+                    <td>AGE</td>
+                    <td>GENDER</td>
+                    <td>COURSE</td>
+                    <td>E-MAIL</td>
+                    <td>ACTION</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="studentform.js"></script>
+</body>
+
+</html>
