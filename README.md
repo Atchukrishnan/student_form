@@ -13,7 +13,7 @@ A simple student registration form using **HTML, CSS, and JavaScript**. Users ca
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/student-details-form.git
+   https://github.com/Atchukrishnan/student_form.git
    ```
 2. Open `index.html` in a browser.
 3. Fill out the form and click **Save** to add student details.
