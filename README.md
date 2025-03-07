@@ -23,5 +23,5 @@ A simple student registration form using **HTML, CSS, and JavaScript**. Users ca
 
 ---
 
-💡 **Created by Atchaya(https://github.com/your-username)**
+💡 **Created by Atchaya(https://github.com/Atchukrishnan)**
 
